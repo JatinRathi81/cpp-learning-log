@@ -1,6 +1,6 @@
 # C++ Learning Log
 
-This repository documents my C++ learning through concept-wise practice programs written by me.
+This repository documents my C++ learning through concept-wise practice programs and progress notes.
 
 ## Progress
 
@@ -28,6 +28,36 @@ This repository documents my C++ learning through concept-wise practice programs
 | 10 | Character data type | [`CharDataType.cpp`](./01-Basics/CharDataType.cpp) |
 | 11 | Integer and floating-point division | [`IntByInt.cpp`](./01-Basics/IntByInt.cpp) |
 | 12 | Modulus operator | [`Modulus.cpp`](./01-Basics/Modulus.cpp) |
+
+### Day 3 — September 3, 2026
+
+| Order | Concept | Practice file |
+| --- | --- | --- |
+| 1 | Finding the absolute value of a number | [`AbsoluteValue.cpp`](./02-Conditionals/AbsoluteValue.cpp) |
+| 2 | Boolean data type | [`BoolDataType.cpp`](./02-Conditionals/BoolDataType.cpp) |
+| 3 | Divisibility using logical OR | [`DivisibleBy5Or3.cpp`](./02-Conditionals/DivisibleBy5Or3.cpp) |
+| 4 | Comparing double and float precision | [`DoubleVSFloat.cpp`](./02-Conditionals/DoubleVSFloat.cpp) |
+| 5 | Checking for a four-digit number | [`FourDigitNumber.cpp`](./02-Conditionals/FourDigitNumber.cpp) |
+| 6 | Finding the greatest of three numbers | [`GreatestOfThree.cpp`](./02-Conditionals/GreatestOfThree.cpp) |
+| 7 | Checking whether a value is an integer | [`IntegerOrNot.cpp`](./02-Conditionals/IntegerOrNot.cpp) |
+| 8 | Selecting a day with switch | [`IthDayOfWeek.cpp`](./02-Conditionals/IthDayOfWeek.cpp) |
+| 9 | Long long integer limits | [`LongLongDataType.cpp`](./02-Conditionals/LongLongDataType.cpp) |
+| 10 | Else-if ladder with divisibility conditions | [`NamesElseIf.cpp`](./02-Conditionals/NamesElseIf.cpp) |
+| 11 | Nested ternary expressions | [`NestedTernary.cpp`](./02-Conditionals/NestedTernary.cpp) |
+| 12 | Odd and even number checking | [`OddEven.cpp`](./02-Conditionals/OddEven.cpp) |
+| 13 | Profit and loss calculation | [`ProfitLoss.cpp`](./02-Conditionals/ProfitLoss.cpp) |
+| 14 | Integer data type limits | [`RangeOfInt.cpp`](./02-Conditionals/RangeOfInt.cpp) |
+| 15 | Relational operators | [`RelationalOperators.cpp`](./02-Conditionals/RelationalOperators.cpp) |
+| 16 | Short integer limits | [`ShortDataType.cpp`](./02-Conditionals/ShortDataType.cpp) |
+| 17 | Conditional ternary operator | [`Ternary.cpp`](./02-Conditionals/Ternary.cpp) |
+| 18 | Storing a ternary result in a variable | [`TernaryVariable.cpp`](./02-Conditionals/TernaryVariable.cpp) |
+| 19 | Checking for a three-digit number | [`ThreeDigitNumber.cpp`](./02-Conditionals/ThreeDigitNumber.cpp) |
+| 20 | Validating triangle sides | [`TriangleOrNot.cpp`](./02-Conditionals/TriangleOrNot.cpp) |
+| 21 | Unsigned integer data type | [`Unsigned.cpp`](./02-Conditionals/Unsigned.cpp) |
+| 22 | Checking driving-age eligibility | [`ValidAgeForDriving.cpp`](./02-Conditionals/ValidAgeForDriving.cpp) |
+| 23 | Conditions, assignment, and post-increment behavior | [`VariableInsideIf.cpp`](./02-Conditionals/VariableInsideIf.cpp) |
+
+> Compilation status: 22 programs compile successfully. `ShortDataType.cpp` is stored unchanged and currently fails to compile because `INT16_MIN` and `INT16_MAX` are not declared by the included headers on the tested compiler. `Unsigned.cpp` compiles with an unused-variable warning.
 
 ## Concepts learned
 
@@ -74,6 +104,28 @@ This repository documents my C++ learning through concept-wise practice programs
 
 - The modulus operator (`%`) returns the remainder after integer division.
 - Input values can be used to calculate a sum, square, or simple interest.
+
+### Conditional statements and decision-making
+
+- `if`, `else if`, and `else` select different execution paths.
+- Relational operators compare values, while logical operators combine conditions.
+- Nested conditions support decisions involving several related checks.
+- A `switch` statement selects one case from several fixed options.
+- The ternary operator provides a compact conditional expression.
+
+### Conditional practice problems
+
+- Conditions can check divisibility, number length, odd/even status, and driving eligibility.
+- Multiple comparisons can find the greatest value and validate triangle sides.
+- Conditional branches can calculate profit or loss and identify integer input.
+- Variables, assignments, increments, and short-circuit expressions affect how a condition is evaluated.
+
+### Numeric data types and limits
+
+- `bool` stores either `true` or `false`.
+- `float` and `double` differ in precision.
+- `short`, `int`, `long long`, and `unsigned int` represent different integer ranges and signedness.
+- Constants from standard headers can be used to inspect numeric limits.
 
 ## Compile and run
 
