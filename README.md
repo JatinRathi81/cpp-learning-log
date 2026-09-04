@@ -59,6 +59,33 @@ This repository documents my C++ learning through concept-wise practice programs
 
 > Compilation status: 22 programs compile successfully. `ShortDataType.cpp` is stored unchanged and currently fails to compile because `INT16_MIN` and `INT16_MAX` are not declared by the included headers on the tested compiler. `Unsigned.cpp` compiles with an unused-variable warning.
 
+### Day 4 — September 4, 2026
+
+| Order | Concept | Practice file |
+| --- | --- | --- |
+| 1 | Arithmetic progression | [`AP.cpp`](./03-Loops/AP.cpp) |
+| 2 | Printing ASCII characters and values | [`ASCII.cpp`](./03-Loops/ASCII.cpp) |
+| 3 | Terminating a loop with break | [`Break.cpp`](./03-Loops/Break.cpp) |
+| 4 | Counting the digits in a number | [`CountDigits.cpp`](./03-Loops/CountDigits.cpp) |
+| 5 | Do-while loop | [`DoWhileLoop.cpp`](./03-Loops/DoWhileLoop.cpp) |
+| 6 | Calculating factorial | [`Factorial.cpp`](./03-Loops/Factorial.cpp) |
+| 7 | Finding factors of a number | [`Factors.cpp`](./03-Loops/Factors.cpp) |
+| 8 | For-loop structure | [`ForLoop.cpp`](./03-Loops/ForLoop.cpp) |
+| 9 | Geometric progression | [`GP.cpp`](./03-Loops/GP.cpp) |
+| 10 | Repeating output with a loop | [`GoodMorning.cpp`](./03-Loops/GoodMorning.cpp) |
+| 11 | Infinite-loop behavior | [`InfiniteLoop.cpp`](./03-Loops/InfiniteLoop.cpp) |
+| 12 | Printing numbers from N to 1 | [`Nto1.cpp`](./03-Loops/Nto1.cpp) |
+| 13 | Skipping multiples of four | [`OneTo100Except4Multiples.cpp`](./03-Loops/OneTo100Except4Multiples.cpp) |
+| 14 | Calculating powers iteratively | [`Power.cpp`](./03-Loops/Power.cpp) |
+| 15 | Checking prime or composite numbers | [`PrimeOrComposite.cpp`](./03-Loops/PrimeOrComposite.cpp) |
+| 16 | Printing numbers from 1 to 100 | [`Print1To100.cpp`](./03-Loops/Print1To100.cpp) |
+| 17 | Printing even numbers | [`PrintEven.cpp`](./03-Loops/PrintEven.cpp) |
+| 18 | Reversing a number | [`ReverseNumber.cpp`](./03-Loops/ReverseNumber.cpp) |
+| 19 | Calculating the sum of digits | [`SumOfDigits.cpp`](./03-Loops/SumOfDigits.cpp) |
+| 20 | Printing the table of 19 | [`TableOf19.cpp`](./03-Loops/TableOf19.cpp) |
+| 21 | While-loop structure | [`While.cpp`](./03-Loops/While.cpp) |
+| 22 | Decrementing inside a while condition | [`WhileTMinusMinus.cpp`](./03-Loops/WhileTMinusMinus.cpp) |
+
 ## Concepts learned
 
 ### Basic program structure
@@ -126,6 +153,23 @@ This repository documents my C++ learning through concept-wise practice programs
 - `float` and `double` differ in precision.
 - `short`, `int`, `long long`, and `unsigned int` represent different integer ranges and signedness.
 - Constants from standard headers can be used to inspect numeric limits.
+
+### Loops and iteration
+
+- A `for` loop is useful when the number of iterations is known.
+- A `while` loop repeats while its condition remains true.
+- A `do-while` loop executes its body at least once before checking the condition.
+- The `break` statement terminates a loop immediately.
+- Loop conditions and increment or decrement expressions control repetition.
+- An incorrectly controlled loop can continue indefinitely.
+
+### Iterative problem-solving
+
+- Loops can generate arithmetic and geometric progressions.
+- Repeated multiplication can calculate factorials and powers.
+- Divisibility checks inside loops can find factors and identify prime or composite numbers.
+- Repeated division and modulus operations can count, reverse, and sum the digits of a number.
+- Loops can print numeric ranges, even numbers, character values, and multiplication tables.
 
 ## Compile and run
 
