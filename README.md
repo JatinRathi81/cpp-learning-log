@@ -86,6 +86,31 @@ This repository documents my C++ learning through concept-wise practice programs
 | 21 | While-loop structure | [`While.cpp`](./03-Loops/While.cpp) |
 | 22 | Decrementing inside a while condition | [`WhileTMinusMinus.cpp`](./03-Loops/WhileTMinusMinus.cpp) |
 
+### Day 5 — September 5, 2026
+
+| Order | Concept | Practice file |
+| --- | --- | --- |
+| 1 | Alphabet square pattern | [`AlphabetSquare.cpp`](./04-PatternPrinting/AlphabetSquare.cpp) |
+| 2 | Binary triangle pattern | [`BinaryTriangle.cpp`](./04-PatternPrinting/BinaryTriangle.cpp) |
+| 3 | Bridge pattern | [`Bridge.cpp`](./04-PatternPrinting/Bridge.cpp) |
+| 4 | Diamond pattern | [`Diamond.cpp`](./04-PatternPrinting/Diamond.cpp) |
+| 5 | Floyd's triangle | [`FloydTriangle.cpp`](./04-PatternPrinting/FloydTriangle.cpp) |
+| 6 | Hollow rectangle pattern | [`HollowRectangle.cpp`](./04-PatternPrinting/HollowRectangle.cpp) |
+| 7 | Nested-loop structure | [`LoopKeAndarLoop.cpp`](./04-PatternPrinting/LoopKeAndarLoop.cpp) |
+| 8 | Number spiral pattern | [`NumberSpiral.cpp`](./04-PatternPrinting/NumberSpiral.cpp) |
+| 9 | Number square pattern | [`NumberSquare.cpp`](./04-PatternPrinting/NumberSquare.cpp) |
+| 10 | Number triangle pattern | [`NumberTriangle.cpp`](./04-PatternPrinting/NumberTriangle.cpp) |
+| 11 | Odd-number triangle pattern | [`OddNumberTriangle.cpp`](./04-PatternPrinting/OddNumberTriangle.cpp) |
+| 12 | Odd triangle pattern | [`OddTriangle.cpp`](./04-PatternPrinting/OddTriangle.cpp) |
+| 13 | Pyramid pattern | [`Pyramid.cpp`](./04-PatternPrinting/Pyramid.cpp) |
+| 14 | Rhombus pattern | [`Rhombus.cpp`](./04-PatternPrinting/Rhombus.cpp) |
+| 15 | Variable scope | [`ScopeOfVariable.cpp`](./04-PatternPrinting/ScopeOfVariable.cpp) |
+| 16 | Star plus pattern | [`StarPlus.cpp`](./04-PatternPrinting/StarPlus.cpp) |
+| 17 | Star rectangle pattern | [`StarRectangle.cpp`](./04-PatternPrinting/StarRectangle.cpp) |
+| 18 | Star triangle pattern | [`StarTriangle.cpp`](./04-PatternPrinting/StarTriangle.cpp) |
+| 19 | Horizontally flipped star triangle | [`StarTriangleHorizontallyFlipped.cpp`](./04-PatternPrinting/StarTriangleHorizontallyFlipped.cpp) |
+| 20 | Vertically flipped star triangle | [`StarTriangleVerticallyFlipped.cpp`](./04-PatternPrinting/StarTriangleVerticallyFlipped.cpp) |
+
 ## Concepts learned
 
 ### Basic program structure
@@ -170,6 +195,16 @@ This repository documents my C++ learning through concept-wise practice programs
 - Divisibility checks inside loops can find factors and identify prime or composite numbers.
 - Repeated division and modulus operations can count, reverse, and sum the digits of a number.
 - Loops can print numeric ranges, even numbers, character values, and multiplication tables.
+
+### Pattern printing and nested loops
+
+- An outer loop controls the number of rows in a pattern.
+- Inner loops control spaces, symbols, letters, or numbers printed within each row.
+- Loop bounds determine a pattern's width, height, alignment, and direction.
+- Conditional statements inside nested loops create hollow and composite shapes.
+- Increasing and decreasing loop ranges produce normal and flipped triangles.
+- Multiple sections of nested loops can be combined to create pyramids, diamonds, bridges, and spirals.
+- Variables declared inside a block have scope limited to that block.
 
 ## Compile and run
 
