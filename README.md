@@ -1,6 +1,6 @@
 # C++ Learning Log
 
-This repository documents my C++ learning journey through daily practice, concept-wise programs, and problem-solving exercises.
+This repository documents my C++ learning journey through daily practice, concept-wise programs, theory notes, and problem-solving exercises.
 
 ## Topics
 
@@ -17,6 +17,19 @@ This repository documents my C++ learning journey through daily practice, concep
 
 **Topic: C++ Basics**
 
+#### Theory
+
+- A C++ program starts execution from the `main()` function.
+- `#include <iostream>` provides standard input/output functionality such as `cin` and `cout`.
+- `cout` is used to display output, while `cin` is used to take input from the user.
+- `<<` is used with `cout` to send data to the output stream, and `>>` is used with `cin` to receive input.
+- `endl` moves the output to the next line.
+- Variables are named storage locations used to hold values.
+- Variable names can contain letters, digits, and underscores, but cannot start with a digit or use C++ keywords.
+- C++ variable names are case-sensitive.
+
+#### Practice
+
 | Order | Concept | Practice file |
 | --- | --- | --- |
 | 1 | Hello World and basic program structure | [`HelloWorld.cpp`](./01-Basics/HelloWorld.cpp) |
@@ -26,6 +39,19 @@ This repository documents my C++ learning journey through daily practice, concep
 ### Day 2 — September 2, 2026
 
 **Topic: Operators, Typecasting and Basic Calculations**
+
+#### Theory
+
+- Arithmetic operators perform basic calculations: `+`, `-`, `*`, `/`, and `%`.
+- Integer division produces an integer result when both operands are integers. Using a floating-point operand produces a floating-point result.
+- Operator precedence determines the order in which parts of an expression are evaluated. Parentheses can be used to control the order explicitly.
+- Increment and decrement operators change a variable by one. Prefix form changes the value before it is used, while postfix form uses the current value before changing it.
+- The modulus operator `%` gives the remainder of an integer division.
+- Typecasting converts a value from one data type to another. It can happen implicitly or be requested explicitly.
+- `char` is used to represent character values. Characters can also participate in arithmetic through their character codes.
+- Basic formulas can be implemented by combining variables, input, arithmetic operators, and output.
+
+#### Practice
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -45,6 +71,23 @@ This repository documents my C++ learning journey through daily practice, concep
 ### Day 3 — September 3, 2026
 
 **Topic: Conditional Statements and Decision Making**
+
+#### Theory
+
+- Conditional statements allow a program to make decisions based on whether a condition is true or false.
+- `if` executes a block when its condition is true. `else` provides an alternative path.
+- `else if` allows multiple conditions to be checked in sequence.
+- Nested `if` statements place one decision inside another decision.
+- Relational operators such as `<`, `>`, `<=`, `>=`, `==`, and `!=` compare values and produce a Boolean result.
+- Logical operators such as `&&`, `||`, and `!` combine or modify conditions.
+- A `bool` represents a logical value: `true` or `false`.
+- `switch` selects between different cases based on the value of an expression. `break` prevents execution from continuing into the next case.
+- The ternary operator `condition ? value1 : value2` is a compact way to choose between two expressions.
+- Data types have limits. `int`, `short`, `long long`, and `unsigned int` differ in the values they can represent.
+- `float` and `double` use floating-point representation and can show different levels of precision.
+- Conditions can be used to solve practical decision problems such as odd/even checks, number validation, profit/loss, eligibility, and triangle validation.
+
+#### Practice
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -76,6 +119,22 @@ This repository documents my C++ learning journey through daily practice, concep
 
 **Topic: Loops and Iteration**
 
+#### Theory
+
+- Loops repeat a block of code while a condition or iteration rule allows it.
+- A `for` loop is useful when the initialization, condition, and update of an iteration are known in one place.
+- A `while` loop repeats while its condition remains true.
+- A `do-while` loop executes its body at least once because the condition is checked after the body.
+- `break` immediately exits the loop.
+- A loop can become infinite when its condition never becomes false.
+- Loop variables can be incremented or decremented to control the number of iterations.
+- Repeated calculations can solve problems such as factorial, powers, multiplication tables, arithmetic/geometric progressions, and printing ranges of numbers.
+- Digit-based problems can be solved using `% 10` to obtain the last digit and `/ 10` to remove the last digit.
+- Factors can be found by checking divisibility. The practice also explores checking factors up to the square root of a number.
+- Prime-number checking uses the idea that a number greater than one with no divisor other than one and itself is prime.
+
+#### Practice
+
 | Order | Concept | Practice file |
 | --- | --- | --- |
 | 1 | Arithmetic progression | [`AP.cpp`](./03-Loops/AP.cpp) |
@@ -105,6 +164,19 @@ This repository documents my C++ learning journey through daily practice, concep
 
 **Topic: Pattern Printing and Nested Loops**
 
+#### Theory
+
+- Pattern printing uses loops to control rows, columns, spaces, numbers, characters, and symbols.
+- Nested loops place one loop inside another. The outer loop commonly controls rows, while the inner loop controls the contents of each row.
+- The number of inner-loop iterations can change for each row to create triangles, pyramids, diamonds, and other shapes.
+- Spaces are used to control alignment and create centered or shifted patterns.
+- Pattern logic can be expressed using row and column relationships instead of writing each output manually.
+- Different values can be printed based on conditions, allowing patterns using stars, numbers, alphabets, binary values, and odd numbers.
+- Variable scope determines where a variable can be accessed. A variable declared inside a loop or block is not accessible outside that scope.
+- More complex patterns can be built by combining multiple nested loops and changing the number of spaces or printed elements as the row changes.
+
+#### Practice
+
 | Order | Concept | Practice file |
 | --- | --- | --- |
 | 1 | Alphabet square pattern | [`AlphabetSquare.cpp`](./04-PatternPrinting/AlphabetSquare.cpp) |
@@ -131,6 +203,25 @@ This repository documents my C++ learning journey through daily practice, concep
 ### Day 6 — September 6, 2026
 
 **Topic: Functions and Scope**
+
+#### Theory
+
+- A function is a reusable block of code that performs a specific task.
+- Functions can receive data through parameters and arguments.
+- A function can have a return type such as `int` or `void`. A non-`void` function can return a value using `return`.
+- `return` also exits a function immediately.
+- Pass by value gives a function a copy of an argument, so changing the parameter does not change the original variable.
+- References can allow a function to work with the original variable. This can be used to modify values such as when swapping two numbers.
+- Default parameters provide a value that is used when an argument is not supplied.
+- Function overloading allows multiple functions to have the same name when their parameter lists are different.
+- Overloaded functions can differ by the number, types, or order of their parameters.
+- Local variables belong to their scope, while global variables can be accessed from wider scopes where they are visible.
+- Shadowing occurs when a variable declared in an inner scope uses the same name as a variable from an outer scope.
+- Functions can call other functions, allowing larger problems to be broken into smaller reusable parts.
+- Mathematical problems such as combinations and Pascal's triangle can be organized using helper functions such as factorial and `nCr`.
+- Inbuilt functions from standard libraries can provide common operations such as mathematical calculations.
+
+#### Practice
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -175,6 +266,7 @@ cpp-learning-log/
 ## Goals
 
 - Build a strong foundation in C++.
+- Understand programming concepts through theory and practice.
 - Improve problem-solving skills through regular practice.
 - Progress toward DSA and interview preparation.
 - Maintain a clean and consistent GitHub learning portfolio.
