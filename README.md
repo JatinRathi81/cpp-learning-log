@@ -1,10 +1,12 @@
 # C++ Learning Log
 
-This repository documents my C++ learning through concept-wise practice programs and progress notes.
+This repository documents my C++ learning journey through daily practice, concept-wise programs, and problem-solving exercises.
 
 ## Progress
 
 ### Day 1 — September 1, 2026
+
+**Topic: C++ Basics**
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -13,6 +15,8 @@ This repository documents my C++ learning through concept-wise practice programs
 | 3 | Variable naming rules | [`VariableNamingRules.cpp`](./01-Basics/VariableNamingRules.cpp) |
 
 ### Day 2 — September 2, 2026
+
+**Topic: Operators, Typecasting and Basic Calculations**
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -31,18 +35,20 @@ This repository documents my C++ learning through concept-wise practice programs
 
 ### Day 3 — September 3, 2026
 
+**Topic: Conditional Statements and Decision Making**
+
 | Order | Concept | Practice file |
 | --- | --- | --- |
-| 1 | Finding the absolute value of a number | [`AbsoluteValue.cpp`](./02-Conditionals/AbsoluteValue.cpp) |
+| 1 | Absolute value | [`AbsoluteValue.cpp`](./02-Conditionals/AbsoluteValue.cpp) |
 | 2 | Boolean data type | [`BoolDataType.cpp`](./02-Conditionals/BoolDataType.cpp) |
 | 3 | Divisibility using logical OR | [`DivisibleBy5Or3.cpp`](./02-Conditionals/DivisibleBy5Or3.cpp) |
-| 4 | Comparing double and float precision | [`DoubleVSFloat.cpp`](./02-Conditionals/DoubleVSFloat.cpp) |
-| 5 | Checking for a four-digit number | [`FourDigitNumber.cpp`](./02-Conditionals/FourDigitNumber.cpp) |
-| 6 | Finding the greatest of three numbers | [`GreatestOfThree.cpp`](./02-Conditionals/GreatestOfThree.cpp) |
+| 4 | Double and float precision | [`DoubleVSFloat.cpp`](./02-Conditionals/DoubleVSFloat.cpp) |
+| 5 | Checking a four-digit number | [`FourDigitNumber.cpp`](./02-Conditionals/FourDigitNumber.cpp) |
+| 6 | Greatest of three numbers | [`GreatestOfThree.cpp`](./02-Conditionals/GreatestOfThree.cpp) |
 | 7 | Checking whether a value is an integer | [`IntegerOrNot.cpp`](./02-Conditionals/IntegerOrNot.cpp) |
-| 8 | Selecting a day with switch | [`IthDayOfWeek.cpp`](./02-Conditionals/IthDayOfWeek.cpp) |
+| 8 | Switch statement | [`IthDayOfWeek.cpp`](./02-Conditionals/IthDayOfWeek.cpp) |
 | 9 | Long long integer limits | [`LongLongDataType.cpp`](./02-Conditionals/LongLongDataType.cpp) |
-| 10 | Else-if ladder with divisibility conditions | [`NamesElseIf.cpp`](./02-Conditionals/NamesElseIf.cpp) |
+| 10 | Else-if ladder | [`NamesElseIf.cpp`](./02-Conditionals/NamesElseIf.cpp) |
 | 11 | Nested ternary expressions | [`NestedTernary.cpp`](./02-Conditionals/NestedTernary.cpp) |
 | 12 | Odd and even number checking | [`OddEven.cpp`](./02-Conditionals/OddEven.cpp) |
 | 13 | Profit and loss calculation | [`ProfitLoss.cpp`](./02-Conditionals/ProfitLoss.cpp) |
@@ -51,42 +57,44 @@ This repository documents my C++ learning through concept-wise practice programs
 | 16 | Short integer limits | [`ShortDataType.cpp`](./02-Conditionals/ShortDataType.cpp) |
 | 17 | Conditional ternary operator | [`Ternary.cpp`](./02-Conditionals/Ternary.cpp) |
 | 18 | Storing a ternary result in a variable | [`TernaryVariable.cpp`](./02-Conditionals/TernaryVariable.cpp) |
-| 19 | Checking for a three-digit number | [`ThreeDigitNumber.cpp`](./02-Conditionals/ThreeDigitNumber.cpp) |
+| 19 | Checking a three-digit number | [`ThreeDigitNumber.cpp`](./02-Conditionals/ThreeDigitNumber.cpp) |
 | 20 | Validating triangle sides | [`TriangleOrNot.cpp`](./02-Conditionals/TriangleOrNot.cpp) |
 | 21 | Unsigned integer data type | [`Unsigned.cpp`](./02-Conditionals/Unsigned.cpp) |
-| 22 | Checking driving-age eligibility | [`ValidAgeForDriving.cpp`](./02-Conditionals/ValidAgeForDriving.cpp) |
+| 22 | Driving-age eligibility | [`ValidAgeForDriving.cpp`](./02-Conditionals/ValidAgeForDriving.cpp) |
 | 23 | Conditions, assignment, and post-increment behavior | [`VariableInsideIf.cpp`](./02-Conditionals/VariableInsideIf.cpp) |
 
-> Compilation status: 22 programs compile successfully. `ShortDataType.cpp` is stored unchanged and currently fails to compile because `INT16_MIN` and `INT16_MAX` are not declared by the included headers on the tested compiler. `Unsigned.cpp` compiles with an unused-variable warning.
-
 ### Day 4 — September 4, 2026
+
+**Topic: Loops and Iteration**
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
 | 1 | Arithmetic progression | [`AP.cpp`](./03-Loops/AP.cpp) |
-| 2 | Printing ASCII characters and values | [`ASCII.cpp`](./03-Loops/ASCII.cpp) |
-| 3 | Terminating a loop with break | [`Break.cpp`](./03-Loops/Break.cpp) |
-| 4 | Counting the digits in a number | [`CountDigits.cpp`](./03-Loops/CountDigits.cpp) |
-| 5 | Do-while loop | [`DoWhileLoop.cpp`](./03-Loops/DoWhileLoop.cpp) |
-| 6 | Calculating factorial | [`Factorial.cpp`](./03-Loops/Factorial.cpp) |
-| 7 | Finding factors of a number | [`Factors.cpp`](./03-Loops/Factors.cpp) |
-| 8 | For-loop structure | [`ForLoop.cpp`](./03-Loops/ForLoop.cpp) |
+| 2 | ASCII characters and values | [`ASCII.cpp`](./03-Loops/ASCII.cpp) |
+| 3 | `break` statement | [`Break.cpp`](./03-Loops/Break.cpp) |
+| 4 | Counting digits | [`CountDigits.cpp`](./03-Loops/CountDigits.cpp) |
+| 5 | `do-while` loop | [`DoWhileLoop.cpp`](./03-Loops/DoWhileLoop.cpp) |
+| 6 | Factorial | [`Factorial.cpp`](./03-Loops/Factorial.cpp) |
+| 7 | Finding factors | [`Factors.cpp`](./03-Loops/Factors.cpp) |
+| 8 | `for` loop | [`ForLoop.cpp`](./03-Loops/ForLoop.cpp) |
 | 9 | Geometric progression | [`GP.cpp`](./03-Loops/GP.cpp) |
 | 10 | Repeating output with a loop | [`GoodMorning.cpp`](./03-Loops/GoodMorning.cpp) |
 | 11 | Infinite-loop behavior | [`InfiniteLoop.cpp`](./03-Loops/InfiniteLoop.cpp) |
 | 12 | Printing numbers from N to 1 | [`Nto1.cpp`](./03-Loops/Nto1.cpp) |
 | 13 | Skipping multiples of four | [`OneTo100Except4Multiples.cpp`](./03-Loops/OneTo100Except4Multiples.cpp) |
 | 14 | Calculating powers iteratively | [`Power.cpp`](./03-Loops/Power.cpp) |
-| 15 | Checking prime or composite numbers | [`PrimeOrComposite.cpp`](./03-Loops/PrimeOrComposite.cpp) |
+| 15 | Prime or composite numbers | [`PrimeOrComposite.cpp`](./03-Loops/PrimeOrComposite.cpp) |
 | 16 | Printing numbers from 1 to 100 | [`Print1To100.cpp`](./03-Loops/Print1To100.cpp) |
 | 17 | Printing even numbers | [`PrintEven.cpp`](./03-Loops/PrintEven.cpp) |
 | 18 | Reversing a number | [`ReverseNumber.cpp`](./03-Loops/ReverseNumber.cpp) |
-| 19 | Calculating the sum of digits | [`SumOfDigits.cpp`](./03-Loops/SumOfDigits.cpp) |
-| 20 | Printing the table of 19 | [`TableOf19.cpp`](./03-Loops/TableOf19.cpp) |
-| 21 | While-loop structure | [`While.cpp`](./03-Loops/While.cpp) |
+| 19 | Sum of digits | [`SumOfDigits.cpp`](./03-Loops/SumOfDigits.cpp) |
+| 20 | Multiplication table | [`TableOf19.cpp`](./03-Loops/TableOf19.cpp) |
+| 21 | `while` loop | [`While.cpp`](./03-Loops/While.cpp) |
 | 22 | Decrementing inside a while condition | [`WhileTMinusMinus.cpp`](./03-Loops/WhileTMinusMinus.cpp) |
 
 ### Day 5 — September 5, 2026
+
+**Topic: Pattern Printing and Nested Loops**
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -111,118 +119,9 @@ This repository documents my C++ learning through concept-wise practice programs
 | 19 | Horizontally flipped star triangle | [`StarTriangleHorizontallyFlipped.cpp`](./04-PatternPrinting/StarTriangleHorizontallyFlipped.cpp) |
 | 20 | Vertically flipped star triangle | [`StarTriangleVerticallyFlipped.cpp`](./04-PatternPrinting/StarTriangleVerticallyFlipped.cpp) |
 
-## Concepts learned
-
-### Basic program structure
-
-- `#include <iostream>` provides standard input and output functionality.
-- `main()` is the entry point of a C++ program.
-- `cout` displays output on the screen.
-- `endl` moves the cursor to a new line.
-
-### Input and output
-
-- `cin` takes input from the user.
-- The input value can be stored in a variable and displayed with `cout`.
-
-### Variable naming rules
-
-- Variable names cannot contain spaces.
-- Variable names cannot begin with a number.
-- Special characters cannot be used in ordinary variable names.
-- C++ keywords such as `if`, `for`, `while`, and `do` cannot be used as variable names.
-
-### Arithmetic operators and numeric types
-
-- The `+`, `-`, `*`, and `/` operators perform basic arithmetic.
-- Division between integers produces an integer result.
-- Using a floating-point operand allows the result to include a fractional part.
-- Operator precedence and left-to-right evaluation determine the order of arithmetic operations.
-
-### Increment and decrement operators
-
-- The increment operator increases a value by one.
-- The decrement operator decreases a value by one.
-- Prefix and postfix operators differ in when the updated value is used in an expression.
-
-### Character data and typecasting
-
-- The `char` data type stores a single character.
-- Implicit typecasting happens automatically.
-- Explicit typecasting requests a conversion using a specified type.
-- Character values can participate in arithmetic and can be converted to integer or character form.
-
-### Modulus and calculation programs
-
-- The modulus operator (`%`) returns the remainder after integer division.
-- Input values can be used to calculate a sum, square, or simple interest.
-
-### Conditional statements and decision-making
-
-- `if`, `else if`, and `else` select different execution paths.
-- Relational operators compare values, while logical operators combine conditions.
-- Nested conditions support decisions involving several related checks.
-- A `switch` statement selects one case from several fixed options.
-- The ternary operator provides a compact conditional expression.
-
-### Conditional practice problems
-
-- Conditions can check divisibility, number length, odd/even status, and driving eligibility.
-- Multiple comparisons can find the greatest value and validate triangle sides.
-- Conditional branches can calculate profit or loss and identify integer input.
-- Variables, assignments, increments, and short-circuit expressions affect how a condition is evaluated.
-
-### Numeric data types and limits
-
-- `bool` stores either `true` or `false`.
-- `float` and `double` differ in precision.
-- `short`, `int`, `long long`, and `unsigned int` represent different integer ranges and signedness.
-- Constants from standard headers can be used to inspect numeric limits.
-
-### Loops and iteration
-
-- A `for` loop is useful when the number of iterations is known.
-- A `while` loop repeats while its condition remains true.
-- A `do-while` loop executes its body at least once before checking the condition.
-- The `break` statement terminates a loop immediately.
-- Loop conditions and increment or decrement expressions control repetition.
-- An incorrectly controlled loop can continue indefinitely.
-
-### Iterative problem-solving
-
-- Loops can generate arithmetic and geometric progressions.
-- Repeated multiplication can calculate factorials and powers.
-- Divisibility checks inside loops can find factors and identify prime or composite numbers.
-- Repeated division and modulus operations can count, reverse, and sum the digits of a number.
-- Loops can print numeric ranges, even numbers, character values, and multiplication tables.
-
-### Pattern printing and nested loops
-
-- An outer loop controls the number of rows in a pattern.
-- Inner loops control spaces, symbols, letters, or numbers printed within each row.
-- Loop bounds determine a pattern's width, height, alignment, and direction.
-- Conditional statements inside nested loops create hollow and composite shapes.
-- Increasing and decreasing loop ranges produce normal and flipped triangles.
-- Multiple sections of nested loops can be combined to create pyramids, diamonds, bridges, and spirals.
-- Variables declared inside a block have scope limited to that block.
-
-## Compile and run
-
-Use a C++ compiler such as GCC:
-
-```bash
-g++ 01-Basics/HelloWorld.cpp -o HelloWorld
-./HelloWorld
-```
-
-On Windows Command Prompt:
-
-```bat
-HelloWorld.exe
-```
-
-
 ### Day 6 — September 6, 2026
+
+**Topic: Functions and Scope**
 
 | Order | Concept | Practice file |
 | --- | --- | --- |
@@ -243,9 +142,27 @@ HelloWorld.exe
 | 15 | Nested scope and shadowing | [`NestedScopeShadowing.cpp`](./05-Functions/NestedScopeShadowing.cpp) |
 | 16 | Pascal triangle using functions | [`PascalTriangle.cpp`](./05-Functions/PascalTriangle.cpp) |
 | 17 | Pass by value | [`PassByValue.cpp`](./05-Functions/PassByValue.cpp) |
-| 18 | Return keyword | [`ReturnKeyword.cpp`](./05-Functions/ReturnKeyword.cpp) |
+| 18 | `return` keyword | [`ReturnKeyword.cpp`](./05-Functions/ReturnKeyword.cpp) |
 | 19 | Return type | [`ReturnType.cpp`](./05-Functions/ReturnType.cpp) |
 | 20 | Star triangle using a function | [`StarTriangle.cpp`](./05-Functions/StarTriangle.cpp) |
 | 21 | Sum of three numbers using a function | [`SumOfThree.cpp`](./05-Functions/SumOfThree.cpp) |
 | 22 | Swapping two numbers | [`Swap.cpp`](./05-Functions/Swap.cpp) |
 | 23 | Swapping two numbers using references | [`Swap2NumbersFunction.cpp`](./05-Functions/Swap2NumbersFunction.cpp) |
+
+## Folder Structure
+
+```text
+cpp-learning-log/
+├── 01-Basics/
+├── 02-Conditionals/
+├── 03-Loops/
+├── 04-PatternPrinting/
+├── 05-Functions/
+├── 06-NextTopic/
+├── 07-NextTopic/
+└── README.md
+```
+
+## Goal
+
+Build a strong foundation in C++, improve problem-solving skills, and prepare for DSA, interviews, and placements through consistent daily practice.
