@@ -221,3 +221,31 @@ On Windows Command Prompt:
 HelloWorld.exe
 ```
 
+
+### Day 6 — September 6, 2026
+
+| Order | Concept | Practice file |
+| --- | --- | --- |
+| 1 | Accessing a shadowed global variable | [`AccessingAShadowedGlobalVariable.cpp`](./05-Functions/AccessingAShadowedGlobalVariable.cpp) |
+| 2 | Function arguments | [`Arguments.cpp`](./05-Functions/Arguments.cpp) |
+| 3 | Basic functions | [`BasicFunction.cpp`](./05-Functions/BasicFunction.cpp) |
+| 4 | Block scope | [`BlockScope.cpp`](./05-Functions/BlockScope.cpp) |
+| 5 | Combinations using functions | [`Combinations.cpp`](./05-Functions/Combinations.cpp) |
+| 6 | Default parameters | [`Default_Parameters.cpp`](./05-Functions/Default_Parameters.cpp) |
+| 7 | Function overloading | [`FunctionOverloading.cpp`](./05-Functions/FunctionOverloading.cpp) |
+| 8 | Function overloading with parameter order | [`FunctionOverloadingCase3.cpp`](./05-Functions/FunctionOverloadingCase3.cpp) |
+| 9 | Function overloading with different parameter types | [`FunctionOverloadingPart2.cpp`](./05-Functions/FunctionOverloadingPart2.cpp) |
+| 10 | Global variables | [`GlobalVariables.cpp`](./05-Functions/GlobalVariables.cpp) |
+| 11 | Implicit typecasting from int to char | [`ImplicitTypecastingIntChar.cpp`](./05-Functions/ImplicitTypecastingIntChar.cpp) |
+| 12 | Inbuilt functions | [`InbuiltFunctions.cpp`](./05-Functions/InbuiltFunctions.cpp) |
+| 13 | Local variables | [`LocalVariables.cpp`](./05-Functions/LocalVariables.cpp) |
+| 14 | Local vs global variables | [`Local_VS_Global.cpp`](./05-Functions/Local_VS_Global.cpp) |
+| 15 | Nested scope and shadowing | [`NestedScopeShadowing.cpp`](./05-Functions/NestedScopeShadowing.cpp) |
+| 16 | Pascal triangle using functions | [`PascalTriangle.cpp`](./05-Functions/PascalTriangle.cpp) |
+| 17 | Pass by value | [`PassByValue.cpp`](./05-Functions/PassByValue.cpp) |
+| 18 | Return keyword | [`ReturnKeyword.cpp`](./05-Functions/ReturnKeyword.cpp) |
+| 19 | Return type | [`ReturnType.cpp`](./05-Functions/ReturnType.cpp) |
+| 20 | Star triangle using a function | [`StarTriangle.cpp`](./05-Functions/StarTriangle.cpp) |
+| 21 | Sum of three numbers using a function | [`SumOfThree.cpp`](./05-Functions/SumOfThree.cpp) |
+| 22 | Swapping two numbers | [`Swap.cpp`](./05-Functions/Swap.cpp) |
+| 23 | Swapping two numbers using references | [`Swap2NumbersFunction.cpp`](./05-Functions/Swap2NumbersFunction.cpp) |
