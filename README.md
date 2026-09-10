@@ -2,7 +2,16 @@
 
 This repository documents my C++ learning journey through daily practice, concept-wise programs, and problem-solving exercises.
 
-## Progress
+## Topics
+
+- C++ Basics
+- Operators and Typecasting
+- Conditional Statements
+- Loops and Iteration
+- Pattern Printing and Nested Loops
+- Functions and Scope
+
+## Daily Progress
 
 ### Day 1 — September 1, 2026
 
@@ -163,6 +172,21 @@ cpp-learning-log/
 └── README.md
 ```
 
-## Goal
+## Goals
 
-Build a strong foundation in C++, improve problem-solving skills, and prepare for DSA, interviews, and placements through consistent daily practice.
+- Build a strong foundation in C++.
+- Improve problem-solving skills through regular practice.
+- Progress toward DSA and interview preparation.
+- Maintain a clean and consistent GitHub learning portfolio.
+- Prepare for placements through steady daily learning.
+
+## Progress
+
+- Day 1: C++ Basics
+- Day 2: Operators, Typecasting and Basic Calculations
+- Day 3: Conditional Statements and Decision Making
+- Day 4: Loops and Iteration
+- Day 5: Pattern Printing and Nested Loops
+- Day 6: Functions and Scope
+
+**Current progress: 6 days of C++ learning completed.**
