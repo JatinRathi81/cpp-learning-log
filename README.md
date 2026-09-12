@@ -10,6 +10,7 @@ This repository documents my C++ learning journey through daily practice, concep
 - Loops and Iteration
 - Pattern Printing and Nested Loops
 - Functions and Scope
+- Pointers
 
 ## Daily Progress
 
@@ -242,12 +243,46 @@ This repository documents my C++ learning journey through daily practice, concep
 | 15 | Nested scope and shadowing | [`NestedScopeShadowing.cpp`](./05-Functions/NestedScopeShadowing.cpp) |
 | 16 | Pascal triangle using functions | [`PascalTriangle.cpp`](./05-Functions/PascalTriangle.cpp) |
 | 17 | Pass by value | [`PassByValue.cpp`](./05-Functions/PassByValue.cpp) |
-| 18 | `return` keyword | [`ReturnKeyword.cpp`](./05-Functions/ReturnKeyword.cpp) |
+| 18 | Return keyword | [`ReturnKeyword.cpp`](./05-Functions/ReturnKeyword.cpp) |
 | 19 | Return type | [`ReturnType.cpp`](./05-Functions/ReturnType.cpp) |
 | 20 | Star triangle using a function | [`StarTriangle.cpp`](./05-Functions/StarTriangle.cpp) |
 | 21 | Sum of three numbers using a function | [`SumOfThree.cpp`](./05-Functions/SumOfThree.cpp) |
 | 22 | Swapping two numbers | [`Swap.cpp`](./05-Functions/Swap.cpp) |
 | 23 | Swapping two numbers using references | [`Swap2NumbersFunction.cpp`](./05-Functions/Swap2NumbersFunction.cpp) |
+
+### Day 7 — September 7, 2026
+
+**Topic: Pointers**
+
+#### Theory
+
+- A pointer is a variable that stores the memory address of another variable.
+- The address-of operator `&` is used to obtain the address of a variable.
+- A pointer is declared using `*`, such as `int* ptr`.
+- A pointer can be initialized with the address of a variable, for example `int* ptr = &x`.
+- The dereference operator `*` accesses the value stored at the address held by a pointer.
+- Changing a value through a dereferenced pointer changes the original variable because the pointer refers to its memory location.
+- A pointer can be passed to a function so that the function can modify the original variable.
+- Pointer-based parameter passing is demonstrated through digit counting, changing a value, and swapping two numbers.
+- A null pointer does not point to a valid object. The practice uses `NULL` to represent a null pointer.
+- A pointer itself also has an address, so the address of a pointer is different from the address stored inside that pointer.
+- A pointer to a pointer, such as `int**`, stores the address of another pointer. Dereferencing it twice can reach the original value.
+- Pointer concepts connect memory addresses, indirection, function parameter passing, and low-level memory understanding.
+
+#### Practice
+
+| Order | Concept | Practice file |
+| --- | --- | --- |
+| 1 | Address of a variable | [`AddressOfVariable.cpp`](./06-Pointers/AddressOfVariable.cpp) |
+| 2 | Storing digit count through a pointer | [`CountDigitStore.cpp`](./06-Pointers/CountDigitStore.cpp) |
+| 3 | Dereference operator | [`DereferenceOperator.cpp`](./06-Pointers/DereferenceOperator.cpp) |
+| 4 | Pointer to a pointer | [`DoublePointer.cpp`](./06-Pointers/DoublePointer.cpp) |
+| 5 | Dereferencing a double pointer | [`DoublePointerDereference.cpp`](./06-Pointers/DoublePointerDereference.cpp) |
+| 6 | Null pointer | [`NullPointer.cpp`](./06-Pointers/NullPointer.cpp) |
+| 7 | Passing a pointer to a function | [`PassByReference.cpp`](./06-Pointers/PassByReference.cpp) |
+| 8 | Pointer basics and addresses | [`Pointer.cpp`](./06-Pointers/Pointer.cpp) |
+| 9 | Swapping values using pointers | [`SwapUsingPointers.cpp`](./06-Pointers/SwapUsingPointers.cpp) |
+| 10 | Pointer declaration practice | [`SyntaxIssue.cpp`](./06-Pointers/SyntaxIssue.cpp) |
 
 ## Folder Structure
 
@@ -258,8 +293,8 @@ cpp-learning-log/
 ├── 03-Loops/
 ├── 04-PatternPrinting/
 ├── 05-Functions/
-├── 06-NextTopic/
-├── 07-NextTopic/
+├── 06-Pointers/
+├── .gitignore
 └── README.md
 ```
 
@@ -270,15 +305,3 @@ cpp-learning-log/
 - Improve problem-solving skills through regular practice.
 - Progress toward DSA and interview preparation.
 - Maintain a clean and consistent GitHub learning portfolio.
-- Prepare for placements through steady daily learning.
-
-## Progress
-
-- Day 1: C++ Basics
-- Day 2: Operators, Typecasting and Basic Calculations
-- Day 3: Conditional Statements and Decision Making
-- Day 4: Loops and Iteration
-- Day 5: Pattern Printing and Nested Loops
-- Day 6: Functions and Scope
-
-**Current progress: 6 days of C++ learning completed.**
